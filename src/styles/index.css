@@ -9,3 +9,46 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background-color: #f4f4f4;
+	margin: 0;
+	font-family: Arial, sans-serif;
+  }
+  
+  .contador-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	width: 100vw;
+  }
+  
+  .contador {
+	display: flex;
+	align-items: center;
+	background-color: black;
+	padding: 20px;
+	border-radius: 10px;
+  }
+  
+  .icono {
+	font-size: 40px;
+	color: white;
+	margin-right: 10px;
+  }
+  
+  .digito {
+	font-size: 40px;
+	color: white;
+	background-color: black;
+	padding: 10px;
+	margin: 5px;
+	border-radius: 5px;
+	font-weight: bold;
+	min-width: 30px;
+	text-align: center;
+  }
